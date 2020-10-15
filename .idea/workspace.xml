@@ -11,23 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28345ec3-4152-4869-8643-127f1453b5f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/admin_panel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/fos_user.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sonata_user.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Admin/BlogPostAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/BlogPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/SonataUserGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/SonataUserUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/admin_panel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/admin_panel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/fos_user.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/fos_user.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/sonata_user.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/sonata_user.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
@@ -157,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
       <path value="$PROJECT_DIR$/vendor/symfony/acl-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ip2vZeDgGiGUf09Y6o6AglFRPg" />
@@ -169,6 +163,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -202,10 +197,15 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2654" y="248" width="441" height="581" key="#com.intellij.ide.util.MemberChooser/51.27.1869.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602655170796" />
-    <state x="2614" y="258" width="521" height="561" key="NewPhpClassDialog" timestamp="1602661980142">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="800" y="361" width="351" height="384" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602685003292">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="800" y="361" width="351" height="384" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/51.27.1869.1053/1920.0.1920.1080@51.27.1869.1053" timestamp="1602685003292" />
+    <state x="727" y="279" width="505" height="547" key="NewPhpClassDialog" timestamp="1602684954816">
+      <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="2614" y="258" width="521" height="561" key="NewPhpClassDialog/51.27.1869.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602661980142" />
+    <state x="727" y="279" width="505" height="547" key="NewPhpClassDialog/51.27.1869.1053/1920.0.1920.1080@51.27.1869.1053" timestamp="1602684954816" />
     <state x="2571" y="278" width="618" height="522" key="find.popup" timestamp="1602674035127">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

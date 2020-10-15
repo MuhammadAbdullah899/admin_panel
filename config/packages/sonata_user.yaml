@@ -4,4 +4,24 @@ sonata_user:
   class:
     user: App\Entity\SonataUserUser
     group: App\Entity\SonataUserGroup
+  mailer: sonata.user.mailer.default
 #  mailer: custom.mailer.service.id
+#  profile:
+#    default_avatar: 'bundles/sonatauser/default_avatar.png' # Default avatar displayed if user doesn't have one
+#    register:
+#      # You may customize the registration forms over here
+#      form:
+#        type: sonata_user_registration
+#        handler: sonata.user.registration.form.handler.default
+#        name: sonata_user_registration_form
+#        validation_groups:
+#
+#          # Defaults:
+#          - Registration
+#          - Default
+#      # This allows you to specify where you want your user redirected once he activated his account
+#      confirm:
+#        redirect:
+#          # Set it to false to disable redirection
+#          route: 'sonata_user_profile_show'
+#          route_parameters: ~
