@@ -9,6 +9,8 @@ fos_user:
   service:
     user_manager: sonata.user.orm.user_manager
   from_email:
-    address: "abc"
-    sender_name: "abc"
-
+    address: "muhammad.abdullah@coeus-solutions.de"
+    sender_name: "Admin Abdullah"
+#  registration:
+#    form:
+#      type: App\Form\RegistrationType

@@ -27,7 +27,11 @@ security:
                 use_forward: false
                 check_path: /admin/login_check
                 failure_path: null
-            logout: true
+                default_target_path: /admin/dashboard
+            #logout: true
+            logout:
+                path: /admin/logout
+                target: /admin/login
             anonymous: true
             provider: users_in_memory
 
@@ -46,6 +50,7 @@ security:
                 use_forward: false
                 check_path: /admin/login_check
                 failure_path: null
+                default_target_path: /admin/dashboard
             logout:
                 path: /admin/logout
                 target: /admin/login
@@ -68,5 +73,5 @@ security:
         - { path: ^/admin/, role: [ROLE_ADMIN, ROLE_SONATA_ADMIN] }
         - { path: ^/.*, role: IS_AUTHENTICATED_ANONYMOUSLY }
 
-#acl:
-#    connection: default
+#    acl:
+#        connection: default
